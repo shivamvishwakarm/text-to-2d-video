@@ -13,7 +13,7 @@ export default function TextToVideoMVP() {
       const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
         method: "POST",
         headers: {
-          "Authorization": `Bearer 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`,
+          "Authorization": `Bearer `,
           "HTTP-Referer": "http://localhost:3000", // Or your deployed site
           "X-Title": "TextToVideoMVP",
           "Content-Type": "application/json",
